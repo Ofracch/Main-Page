@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*,
+*:before
+*:after{
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background: #EEE;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px rgb(223, 215, 215) solid;
+}
+body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*HEADER*/
+
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 75px;
+    grid-template-areas: 
+    "a a a a a a b c d";
+    align-items: start;
+    font-weight: 700;
+}
+.logo {
+    grid-area: a;
+    padding: 0px 0px 0px 70px;
+    align-self: center;
+}
+.option1 {
+    grid-area: b;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    align-self: center;
+}
+.option2 {
+    grid-area: c;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    align-self: center;
+    
+}
+.option3 {
+    grid-area: d;
+    margin: 0;
+    padding: 0px 70px 0px 0px;
+    align-self: center;
+    
+}
+.logo {
+    height: 30px;
+    width: 30px;
+}
+.option1, .option2, .option3:hover {
+    cursor: pointer;
+}
+
+
+/*US*/
+
+
+.us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    border : 1px rgb(223, 215, 215) solid;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.text {
+    padding-left: 70px;
+}
+.boton1 {
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    font-size: 11px;
+    border: black 1px solid;
+    font-weight: 700;
+}
+.boton2 {
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 11px;
+    color: black;
+    border: black 2px solid;
+    font-weight: 900;
+}
+.image_us {
+    padding: 30px 70px 30px 0px;
+    justify-self: right;
+}
+.boton1, .boton2:hover {
+    cursor: pointer;
+}
+img:hover {
+    cursor: pointer;
+}
+
+
+/*INTRO*/
+
+
+.intro {
+    border: rgb(223, 215, 215) 1px  solid;
+}
+.intro_intro {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0px 30px 0px;
+}
+
+
+/*OUR ADVANTAGES*/
+
+
+.benefitsimg {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.our_advantages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 275px;
+    grid-template-areas: 
+    'a a a'
+    'b c d';
+    border: rgb(223, 215, 215) 1px solid;
+    margin: 0 auto;
+    align-items: center;
+}
+.advantages {
+    grid-area: a;
+    padding: 0px 0px 0px 0px;
+    align-self: center;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+.benefits1 {
+    grid-area: b;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 10px;
+}
+.benefits2 {
+    grid-area: c;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 10px;
+}
+.benefits3 {
+    grid-area: d;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 10px;
+}
+
+/*CRIPTOS*/
+
+
+.criptosimg {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.criptos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 275px;
+    grid-template-areas: 
+    'a a a a'
+    'b c d e';
+    border: rgb(223, 215, 215) 1px  solid;
+}
+.criptos_explain {
+    grid-area: a;
+    padding: 0px 0px 0px 0px;
+    align-self: center;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+.cripto1 {
+    grid-area: b;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 10px;
+}
+.cripto2 {
+    grid-area: c;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 10px;
+}
+.cripto3 {
+    grid-area: d;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 10px;
+}
+.cripto4 {
+    grid-area: e;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+/*CLIENTS*/
+
+
+.ourclients {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 150px;
+    grid-template-areas: 
+    'a a a a a'
+    'b c d e f';
+    border: rgb(223, 215, 215) 1px  solid;
+}
+.clients {
+    grid-area: a;
+    padding: 0px 0px 0px 0px;
+    align-self: center;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+.client1 {
+    grid-area: b;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 0;
+    justify-self: center;
+}
+.client2 {
+    grid-area: c;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 0;
+    justify-self: center;
+}
+.client3 {
+    grid-area: d;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 0;
+    justify-self: center;
+}
+.client4 {
+    grid-area: e;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 0;
+    justify-self: center;
+}
+.client5 {
+    grid-area: f;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 0;
+    justify-self: center;
+}
+
+
+/*CONTACT US*/
+
+
+.socialimg {
+    width: 30px;
+    height: 30px;
+}
+
+.contactus {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 510px;
+    border: rgb(223, 215, 215) 1px  solid;
+    padding: 30px 0px 0px 0px;
+    border: rgb(223, 215, 215) 1px  solid;
+}
+ul {
+    font-size: 15px;
+}
+.contacttitle {
+    font-size: 18px;
+}
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 125px;
+    grid-template-areas: 
+    'a a'
+    'b c'
+    'd d';
+    align-items: center;
+    justify-self: center;
+}
+.one {
+    grid-area: b;
+}
+.two {
+    grid-area: c;
+}
+.bebe {
+    padding: 30px 70px 30px 0px;
+    justify-self: right;
+}
+.div_bebe {
+    height: 510px;
+    justify-self: right;}
+.social {
+    grid-area: d;
+    align-self: center;
+    word-spacing: 10px;
+}
+
+
+/*Footer*/
+
+
+Footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: rgb(223, 215, 215) 1px  solid;
+}
+.logo_copy {
+    width: 40px;
+    height: 40px;
+}
+.copy {
+    margin: 0;
+    text-align: center;
+}
