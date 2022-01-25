@@ -211,25 +211,25 @@ img:hover {
     grid-area: b;
     padding: 0px 0px 0px 0px;
     text-align: center;
-    margin: 10px;
+    margin: 25px;
 }
 .cripto2 {
     grid-area: c;
     padding: 0px 0px 0px 0px;
     text-align: center;
-    margin: 10px;
+    margin: 25px;
 }
 .cripto3 {
     grid-area: d;
     padding: 0px 0px 0px 0px;
     text-align: center;
-    margin: 10px;
+    margin: 25px;
 }
 .cripto4 {
     grid-area: e;
     padding: 0px 0px 0px 0px;
     text-align: center;
-    margin: 10px;
+    margin: 25px;
 }
 
 
@@ -311,6 +311,7 @@ img:hover {
 ul {
     font-size: 15px;
 }
+li {padding-top: 6px;}
 .contacttitle {
     font-size: 18px;
 }
@@ -343,9 +344,8 @@ ul {
     grid-area: d;
     align-self: center;
     word-spacing: 10px;
+    padding-top: 140px;
 }
-
-
 /*Footer*/
 
 
